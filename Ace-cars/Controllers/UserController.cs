@@ -18,7 +18,6 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Ace_cars.Controllers
 {
-    [EnableCors("AllowOrigin")]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase

@@ -14,8 +14,8 @@ namespace Ace_cars.Services
     }
     public class UserService: IUserService
     {
-        private readonly AceAutoDealersContext _context;
-        public UserService(AceAutoDealersContext context)
+        private readonly ProductsContext _context;
+        public UserService(ProductsContext context)
         {
             _context = context;
         }
