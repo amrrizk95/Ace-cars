@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Ace_cars.Helper
+namespace Ace_cars
 {
     public class RandomNumbers : Random
     {
